@@ -944,10 +944,38 @@ p.services-image_mobile {
   opacity: 0;
 }
 
-.document-inner:hover .document-overlay {
+
+.sertificate-document {
+  display: block;
+  width: max-content;
+  position: relative;
+  height: 100%;
+  margin: auto;
+}
+
+.sertificate-document:hover .document-overlay {
   opacity: 1;
   transition: opacity 0.3s linear;
   -webkit-transition: opacity 0.3s linear;
+}
+
+.origin-document {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.origin-document img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 #contacts {
