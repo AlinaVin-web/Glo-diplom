@@ -586,6 +586,15 @@ input.error {
   background-color: #fff;
 }
 
+.active-slide {
+  display: block !important;
+}
+
+.arrow-disable {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
 #benefits {
   background-color: #f5f6f6;
 }
