@@ -4,6 +4,7 @@ import documents from "./modules/documents";
 import timer from "./modules/timer";
 import slider from "./modules/slider";
 import calc from "./modules/calc";
+import form from "./modules/form";
 
 callModals();
 scroll();
@@ -28,3 +29,4 @@ slider({
     slideActiveClass: 'active-slide'
 });
 calc();
+form();

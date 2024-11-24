@@ -233,6 +233,12 @@ input.error {
   text-transform: none;
 }
 
+.form-status {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 .slogan {
   font-size: 18px;
   text-transform: uppercase;
