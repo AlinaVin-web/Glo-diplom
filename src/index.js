@@ -3,6 +3,7 @@ import scroll from "./modules/scroll"
 import documents from "./modules/documents";
 import timer from "./modules/timer";
 import slider from "./modules/slider";
+import calc from "./modules/calc";
 
 callModals();
 scroll();
@@ -26,3 +27,4 @@ slider({
     countActiveSlides: 2,
     slideActiveClass: 'active-slide'
 });
+calc();
