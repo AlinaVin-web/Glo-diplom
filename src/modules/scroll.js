@@ -19,7 +19,7 @@ const scroll = () => {
         idAnimation = requestAnimationFrame(scrollAnimation);
     })
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', () => {
         if (scrollY < offerBlock.offsetTop + offerBlock.offsetHeight) {
             smoothScroll.style.opacity = '';
             smoothScroll.style.pointerEvents = '';

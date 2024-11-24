@@ -1,11 +1,13 @@
 import callModals from "./modules/call-modals";
 import scroll from "./modules/scroll"
 import documents from "./modules/documents";
+import timer from "./modules/timer";
 import slider from "./modules/slider";
 
 callModals();
 scroll();
 documents();
+timer('27 november 2024');
 slider({
     sliderBlockSelector: '#benefits',
     sliderWrapSelector: '.benefits-wrap',
