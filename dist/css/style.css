@@ -813,6 +813,7 @@ p.services-image_mobile {
 
 #reviews {
   background: url("../images/review-bg.png");
+  padding-bottom: 0;
 }
 
 .review-inner {
@@ -832,6 +833,9 @@ p.services-image_mobile {
 }
 
 .review-user img {
+  width: 121px;
+  height: 121px;
+  object-fit: cover;
   border-radius: 100%;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
@@ -846,6 +850,13 @@ p.services-image_mobile {
 
 .review-orange {
   background-color: #ffb135;
+}
+
+.review-loading {
+  margin: auto;
+  display: block;
+  width: 100px;
+  height: 100px;
 }
 
 .review-arrow:after {
@@ -888,6 +899,15 @@ p.services-image_mobile {
 
 .review-margin-bottom {
   margin-bottom: 80px;
+}
+
+.review-arrow-right.review-green:after,
+.review-arrow-right.review-orange:after {
+  transform: scaleX(-1);
+}
+
+.review-arrow-left.review-gray:after {
+  transform: scaleX(-1);
 }
 
 #about {

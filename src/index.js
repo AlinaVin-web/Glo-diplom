@@ -5,6 +5,7 @@ import timer from "./modules/timer";
 import slider from "./modules/slider";
 import calc from "./modules/calc";
 import form from "./modules/form";
+import reviews from "./modules/reviews";
 
 callModals();
 scroll();
@@ -30,3 +31,4 @@ slider({
 });
 calc();
 form();
+reviews('comments.json');
